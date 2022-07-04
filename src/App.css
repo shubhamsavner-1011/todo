@@ -1,0 +1,63 @@
+.main{
+  justify-content: center;
+}
+.heading{
+  padding: 10px;
+  background-color:indigo;
+  color:white;
+  text-align: center;
+  font-size: 25px;
+}
+.field{
+  text-align: center;
+}
+.addBtn{
+  border-radius: 50% !important;
+  background-color: indigo !important;
+  color:white !important;
+  padding: 5px !important;
+  min-width: 20px!important;
+  outline: none !important;
+}
+.addBtn:hover{
+  background-color: green !important;
+}
+.list{list-style: none;
+margin: 15px;
+}
+.listItem{
+margin: 20px ;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 290px;
+background-color: indigo;
+padding: 10px;
+border-radius: 5px;
+}
+.itemName{
+  color:white;
+  padding-top:5px;
+  margin-left: 15px;
+}
+.closeIcon{background-color: indigo;
+  padding: 3px;
+  font-size: 25px !important;
+  border-radius: 50px;
+  outline: none;
+  color: white;
+  margin-left: 10px;
+}
+  .closeIcon:hover{
+    background-color: red;
+  }
+  .editIcon{
+    padding: 3px;
+    font-size: 25px !important;
+    color: white;
+  }
+    .editIcon:hover{
+      border-radius: 50px;
+      background-color:darkgreen;
+      padding: 3px;
+    }
